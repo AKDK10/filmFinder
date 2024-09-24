@@ -1,6 +1,14 @@
+:root {
+    --darkBlue: #003f5c;
+    --lighterBlue:#58508d;
+    --purple: #bc5090;
+    --orange: #ff6361;
+    --yellow: #ffa600;
+}
+
 body {
-    background-color: #7f0920;
-    color: #0a0408;
+    background-color: var(--lighterBlue);
+    color: var(--orange);
 }
 
 #appTitle {
@@ -58,7 +66,7 @@ img#moviePoster {
     border-radius: 10px;
     border-style: none;
     background-color: #B97828;
-    color: #fdc238;
+    color: var(--yellow);
     cursor:  pointer;
 }
 
